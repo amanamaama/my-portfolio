@@ -4,6 +4,30 @@ body {
   color: darkblue;
   text-align: center;
   padding: 30px;
+  margin: 0;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: darkblue;
+  color: white;
+  border-radius: 20px;
+  padding: 6px 14px;
+  margin: 4px;
+  font-size: 14px;
 }
 
 .card {
@@ -19,4 +43,13 @@ a {
   color: darkblue;
   margin: 0 8px;
   font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
 }
